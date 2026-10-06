@@ -1,0 +1,123 @@
+# Instrumento: AWS
+# Modelo: AWS810 
+# Estación: Ushuaia, USH, Argentina
+# Coordenadas de ubicación instrumento: -54.8480527778, -68.3108694444 17m snm
+# Altura de muestreo: anemómetro ( 10m), termohigrometro (1.5m), barómetro (1.5m), 
+# Frecuencia de medición:  1 seg (avg  min)
+# Parámetros relevantes: MODELOS DE INSTRUMENTOS
+# Datalogger modelo: DMU801
+# Datalogger número de serie: U2820524
+# Datalogger número de patrimonio SMN: 23904
+# Anemometro modelo: WMT703
+# Anemometro numero de serie: U3150829
+# Anemometro numero de patrimonio: 23898
+# Pluviometro modelo: RG13-CFG03
+# Pluviometro numero de serie: 03210601
+# Pluviometro numero de patrimonio: 23902
+# Termohigrometro modelo: HMP155E
+# Termohigrometro numero de serie: U3231055
+# Termohigrometro numero de patrimonio: 23900
+# Piranometro modelo: SMP10-V 
+# Piranometro numero de serie: 214220
+# Piranometro numero de patrimonio: 23901
+# Barometro modelo: DMB801
+# Barometro numero de serie: U0720123
+# Información clave: periodo1 = 2 min, periodo2 = 10 min
+# Fecha de última calibración: -
+# Coeficientes de calibración: 
+# Investigador responsable: Lino Condorí (lcondori@smn.gob.ar), (estacion.vag.ushuaia@smn.gob.ar) - Servicio Meteorológico Nacional
+# Descripción de variables:
+# timestamp: YYYY-MM-ddThh:mm:ssZ  fecha y hora de muestreo en hora UTC
+# station_id: Texto, Identificacion Internacional de la Estacion 
+# station_name: Texto, Nombre de la Estacion
+# wigos_id: Texto, Identificacion WIGOS de la Estacion 
+# latitude: numerico, latitud en formato decimal
+# longitude: numerico, longitud en formato decimal 
+# altitude: m, altitud en metros
+# transmission_time:  NaN
+# ta_inst: °C, Temperatura Instantanea del aire
+# ta_avg: °C, Temperatura del Aire Promedio del minuto
+# ta_max: °C, Temperatura del Aire Maxima del minuto
+# ta_min: °C, Temperatura del Aire Minima del minuto
+# ta_max_24h: °C, Temperatura del Aire Maxima Historica
+# ta_min_24h: °C, Temperatura del Aire Minima Historica
+# ta_max_12h: °C, Temperatura del Aire Maxima de mediodia (0 a 12HS y 12HS a 24HS)
+# ta_min_12h: °C, Temperatura del Aire Minima de mediodia (0 a 12HS y 12HS a 24HS)
+# rh_inst: %, Humedad Relativa Instantanea
+# rh_avg: %, Humedad Relativa Promedio del minuto
+# rh_max: %, Humedad Relativa Maxima del minuto
+# rh_min: %, Humedad Relativa Minima del minuto
+# tdp_inst: °C, Temperatura de Rocio Instantanea
+# tdp_avg: °C, Temperatura de Rocio Promedio del minuto
+# tdp_max: °C, Temperatura de Rocio Maxima del minuto
+# tdp_min: °C, Temperatura de Rocio Minima del minuto
+# pa_inst:  hPa, Presión Atmosférica Instantanea
+# pa_avg: hPa, Presión Atmosférica Promedio del minuto
+# pa_max: hPa, Presión Atmosférica Maxima del minuto
+# pa_min: hPa, Presión Atmosférica Minima del minuto
+# wd_inst_dir: °(grado sexagesimal), Direccion Instantanea
+# wd_inst_3s: °(grado sexagesimal), Direccion Promedio 3 Segundos
+# wd_avg1: °(grado sexagesimal), Direccion Promedio del periodo1
+# wd_max1: °(grado sexagesimal), Direccion Maxima del periodo1
+# wd_min1: °(grado sexagesimal), Direccion Minima del periodo1
+# wd_gust1: °(grado sexagesimal), Direccion de una Rafaga del periodo1
+# wd_avg2: °(grado sexagesimal), Direccion Promedio del periodo2
+# wd_max2: °(grado sexagesimal), Direccion Maxima del periodo2
+# wd_min2: °(grado sexagesimal), Direccion Minima del periodo2
+# wd_gust2: °(grado sexagesimal), Direccion de una Rafaga del periodo2
+# ws_inst_spd: m/s, Intensidad Instantanea
+# ws_inst_3s: m/s, Intensidad Promedio de 3 Segundos
+# ws_avg1: m/s, Intensidad Promedio del periodo1
+# ws_max1: m/s, Intensidad Maxima del periodo1
+# ws_min1: m/s, Intensidad Minima del periodo1
+# ws_avg2: m/s, Intensidad Promedio del periodo2
+# ws_max2: m/s, Intensidad Maxima del periodo2
+# ws_min2: m/s, Intensidad Minima del periodo2
+# pr_sum: mm, Precipitación del minuto
+# pr_sum_24h: mm, Precipitación Acumulada en 24hs (desde 12UTC a 12 UTC)
+# pr_total: mm, Precipitación Acumulada Total (desde que el Script es subido)
+# solar_rad_inst: W/m², Radiacion Solar Instantanea
+# solar_rad_avg: W/m², Radiacion Solar Promedio del minuto
+# solar_rad_max: W/m², Radiacion Solar Maxima del minuto
+# solar_rad_min: W/m², Radiacion Solar Minima del minuto
+# soil_temp_avg: °C, Temperatura del Suelo Promedio del minuto
+# soil_temp_max: °C, Temperatura del Suelo Maxima del minuto
+# soil_temp_min: °C, Temperatura del Suelo Minima del minuto
+# ac_connected: Entero, Indicador de Conexion a AC
+# battery_voltage: V (Voltios), Tensión de Bateria
+# battery_1: V (Voltios), Tensión de Bateria_1
+# battery_2: V (Voltios), Tensión de Bateria_2
+# battery_current: A (Amperios), Corriente de la Bateria
+# battery_level: %, Porcentaje de carga de las Baterias
+# battery_temp: °C, Temperatura de las Baterias
+# battery_low_charge: Entero, Indicador de Baja Carga
+# charging_state: Entero, Estado de carga 
+# bmu801_error_state: Entero, Estado de error
+# input_voltage:  V (Voltios), Tensión de Alimentación
+# battery_time_sec: min, estimador de minutos restantes
+# solar_1: V (Voltios), Tensión del Panel solar
+# bmu801_system_state:  NaN
+# bmu801_uptime_sec: Seg, tiempo continuamente encendido
+# bmu801_warnings: Entero, Estado de error
+# dmb801_error: Entero, Estado de error
+# hmp155_error: Texto, Estado de error
+# smp10_status_flags: Entero, Banderas de Estado
+# modem_ip: IP, IP que obtiene desde el modem
+# modem_network: Texto, Operador de GSM
+# modem_online:  NaN
+# modem_ping_fail: Entero, Estado de error
+# modem_state: Texto, Estado del modem
+# network_status: Texto, Estado de la Red
+# dmu801_board_temp: °C, Temperatura de la Placa del Datalogger
+# dmu801_cpu_temp: °C, Temperatura del CPU del Datalogger
+# dmu801_cpu_usage: %, Porcentaje de uso del CPU
+# dmu801_input_voltage: V (Voltios), Tensión de Alimentación
+# dmu801_internal_storage_available_mb: MB, Almacenamiento Interno Disponible
+# dmu801_ram_available_mb: MB, Memoria RAM Disponible
+# dmu801_sd_present: Texto, Presencia de Memoria SD
+# dmu801_sd_storage_available_mb: NaN
+# dmu801_script_uptime:  NaN
+# dmu801_system_uptime:  NaN
+# record_number: Entero, Numero de registro
+# Comentarios: -
+

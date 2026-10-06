@@ -1,0 +1,22 @@
+{
+  "database": {
+    "name": "GAWUSH_DATABASE",
+    "user": "cargaAWS810",
+    "password": "aws810",
+    "host": "10.30.19.5",
+    "port": 5432,
+    "last_date": "2025-09-01"
+  },
+  "ftp": {
+    "host": "10.30.19.24",
+    "user": "uploaderdata",
+    "password": "OtraClaveSegura",
+    "dir": "/home/ftp/uploaderdata"
+  },
+  "carpetas": {
+    "destino": "C:\\Users\\condo\\PycharmProjects\\gen_AWS_data_vaisala810\\AWS810",
+    "recopilado": "Recopilado",
+    "cargado": "Cargado",
+    "nombre": "USH_AWS2_"
+  }
+}
