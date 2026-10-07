@@ -24,8 +24,8 @@ with open(os.path.join(BASE_DIR, "config.json")) as f:
 with open("metadatos_aws_ush.txt", "r", encoding="utf-8") as f:
     lineas = f.readlines()
     for linea in lineas:
-        if "Descripción de variables:" in linea:
-            inicio_index = lineas.index(linea) + 1
+        if "Descripción de variables:" in  linea:
+            inicio_index = lineas.index(linea) + 1 +0
         if "Comentarios:" in linea:
             fin_index = lineas.index(linea)
     columnas = list()
